@@ -1,0 +1,58 @@
+name: MangoParty
+version: 1.0.0
+main: me.moiz.mangoparty.MangoParty
+api-version: 1.21
+description: A comprehensive party and PvP combat system.
+authors: [Moiz]
+depend: [WorldEdit, FastAsyncWorldEdit]
+softdepend: []
+permissions:
+  mangoparty.admin:
+    description: Allows access to admin commands
+    default: op
+  mangoparty.party:
+    description: Allows access to party commands
+    default: true
+  mangoparty.duel:
+    description: Allows access to duel commands
+    default: true
+  mangoparty.queue:
+    description: Allows access to queue commands
+    default: true
+  mangoparty.spectate:
+    description: Allows access to spectate command
+    default: true
+
+commands:
+  mango:
+    description: Main admin command for MangoParty
+    permission: mangoparty.admin
+    usage: /mango <subcommand>
+  party:
+    description: Party management commands
+    permission: mangoparty.party
+    usage: /party <subcommand>
+  1v1queue:
+    description: Join the 1v1 queue
+    permission: mangoparty.queue
+    usage: /1v1queue
+  2v2queue:
+    description: Join the 2v2 queue
+    permission: mangoparty.queue
+    usage: /2v2queue
+  3v3queue:
+    description: Join the 3v3 queue
+    permission: mangoparty.queue
+    usage: /3v3queue
+  leavequeue:
+    description: Leave the queue
+    permission: mangoparty.queue
+    usage: /leavequeue
+  spectate:
+    description: Spectate a player
+    permission: mangoparty.spectate
+    usage: /spectate <player>
+  duel:
+    description: Duel another player
+    permission: mangoparty.duel
+    usage: /duel <player>

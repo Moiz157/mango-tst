@@ -1,0 +1,16 @@
+debug: false
+spawn: null
+party:
+  max-size: 8
+  invite-timeout: 60
+match:
+  countdown: 5
+  max-duration: 300
+arena:
+  auto-regenerate: true
+  regeneration-delay: 5
+  instance-x-offset: 200
+  instance-z-offset: 0
+scoreboard:
+  update-interval: 20
+  title: "&#FFD700&lMangoParty"

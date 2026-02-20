@@ -1,0 +1,56 @@
+default:
+  title: "&#FFD700&lMangoParty"
+  lines:
+    - ""
+    - "&7Arena: &f%arena%"
+    - "&7Kit: &f%kit%"
+    - ""
+    - "&7Alive: &a%alive%/%total%"
+    - "&7Time: &e%time%"
+    - ""
+    - "&7Kills: &c%kills%"
+    - ""
+    - "&eplay.mangoparty.net"
+
+duel:
+  title: "&#FFD700&lDuel"
+  lines:
+    - ""
+    - "&7Arena: &f%arena%"
+    - "&7Kit: &f%kit%"
+    - ""
+    - "&7Opponent: &c%opponent%"
+    - "&7Round: &e%round%/%total_rounds%"
+    - ""
+    - "&7Time: &e%time%"
+    - ""
+    - "&eplay.mangoparty.net"
+
+team:
+  title: "&#FFD700&lTeam Match"
+  lines:
+    - ""
+    - "&7Arena: &f%arena%"
+    - "&7Kit: &f%kit%"
+    - ""
+    - "&aTeam 1: &f%team1_alive%"
+    - "&cTeam 2: &f%team2_alive%"
+    - ""
+    - "&7Time: &e%time%"
+    - "&7Kills: &c%kills%"
+    - ""
+    - "&eplay.mangoparty.net"
+
+ffa:
+  title: "&#FFD700&lFFA"
+  lines:
+    - ""
+    - "&7Arena: &f%arena%"
+    - "&7Kit: &f%kit%"
+    - ""
+    - "&7Alive: &a%alive%/%total%"
+    - "&7Time: &e%time%"
+    - ""
+    - "&7Kills: &c%kills%"
+    - ""
+    - "&eplay.mangoparty.net"
